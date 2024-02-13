@@ -1,16 +1,55 @@
 <!DOCTYPE html>
-
-<html>
-
-<head>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Background Color</title>
+    <style>
+      :root {
+        background-color: rgb(135, 206, 235);
+      }
+      p:first-child {
+        color: white;
+        background-color: black;
+      }
+      p:nth-child(2){
+        color: black;
+      }
+      p:nth-last-child(3){
+        color: red;
+      }
+      li{
+        width: 50%;
+        padding: 10px;
+      }
+      .white{
+        background-color: white;
+      }
+      .gray{
+        background-color: gray;
+      }
+      #pinkbg{
+        background-color: pink;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet, sed?</p>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, autem
+      ducimus culpa doloribus ab molestiae aspernatur. Recusandae exercitationem
+      eveniet ipsa quis perferendis culpa est earum aspernatur omnis, iure
+      quibusdam a!
+    </p>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet, sint.
+    </p>
+    <ul>
+      <li class="white">First Item</li>
+      <li class="gray">Second Item</li>
+      <li id="pinkbg">Third Item</li>
+      <li class="gray">Fouth Item</li>
+      <li class="white">Fifth Item</li>
+    </ul>
+  </body>
 </html>
